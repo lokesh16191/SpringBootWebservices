@@ -25,7 +25,7 @@ public class UserController {
 		return service.findAll();
 	}
 	
-	@PostMapping("/users/{id}")
+	@GetMapping("/users/{id}")
 	public User getUser(@PathVariable int id)
 	{
 		User user=service.findOne(id);
