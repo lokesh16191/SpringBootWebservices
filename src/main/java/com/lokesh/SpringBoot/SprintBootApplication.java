@@ -1,4 +1,4 @@
-package com.lokesh.SprintBoot;
+package com.lokesh.SpringBoot;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

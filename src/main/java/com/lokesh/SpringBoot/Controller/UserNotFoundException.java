@@ -1,4 +1,4 @@
-package com.lokesh.SprintBoot.Controller;
+package com.lokesh.SpringBoot.Controller;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;

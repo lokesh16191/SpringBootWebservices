@@ -1,4 +1,4 @@
-package com.lokesh.SprintBoot.Controller;
+package com.lokesh.SpringBoot.Controller;
 
 import java.util.ArrayList;
 import java.util.Date;

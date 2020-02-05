@@ -1,8 +1,14 @@
-package com.lokesh.SprintBoot.Controller;
+package com.lokesh.SpringBoot.Controller;
 
 import java.util.Date;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+@Entity
 public class User {
+	@Id
+	@GeneratedValue
 	Integer id;
 	String name;
 	Date birthDate;

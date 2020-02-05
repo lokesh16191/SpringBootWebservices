@@ -1,4 +1,4 @@
-package com.lokesh.SprintBoot.Controller;
+package com.lokesh.SpringBoot.Controller;
 
 import java.net.URI;
 import java.util.List;
@@ -25,7 +25,7 @@ public class UserController {
 		return service.findAll();
 	}
 	
-	@GetMapping("/users/{id}")
+	@PostMapping("/users/{id}")
 	public User getUser(@PathVariable int id)
 	{
 		User user=service.findOne(id);
