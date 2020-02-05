@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.lokesh</groupId>
-	<artifactId>SprintBoot</artifactId>
+	<artifactId>SpringBoot</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>SprintBoot</name>
 	<description>Demo project for Spring Boot</description>

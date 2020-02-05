@@ -12,7 +12,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 @EnableSwagger2
 public class SwaggerConfig {
 	
-	public static final ApiInfo DEFAULT_API_INFO=new ApiInfo("Spring Boot Examples", "This Project contains basic Spring Boot webservices example", 1.0, null, "lokesh16191@gmail.com", null, null);
+	public static final ApiInfo DEFAULT_API_INFO=new ApiInfo("Spring Boot Examples", "This Project contains basic Spring Boot webservices example", "1.0", "", "lokesh16191@gmail.com", "", "");
 	@Bean
 	public Docket api()
 	{
